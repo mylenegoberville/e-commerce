@@ -1,0 +1,11 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}{{ 'title_newproduct' |trans}}{% endblock %}
+
+{% block body %}
+    <h1>{{ 'product.new'|trans }}</h1>
+
+    {{ include('accueil/_form.html.twig') }}
+
+    <a href="{{ path('app_accueil') }}">{{ 'product.back' |trans }}</a>
+{% endblock %}

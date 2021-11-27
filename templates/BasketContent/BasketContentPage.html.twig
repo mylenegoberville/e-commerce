@@ -1,0 +1,32 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+    <h1>{{ 'panier' |trans}}</h1>
+
+    <table class="table">
+        <tbody>
+        <tr>
+            <th>{{ 'basketContent.id' |trans}}</th>
+            <td>{{ basketContent.id }}</td>
+        </tr>
+        <tr>
+            <th>{{ 'basketContent.product' |trans}}</th>
+            <td>{{ basketContent.product }}</td>
+        </tr>
+        <tr>
+            <th>{{ 'basketContent.quantity' |trans}}</th>
+            <td>{{ basketContent.quantity }}</td>
+        </tr>
+        <tr>
+            <th>{{ 'basketContent.product.price' |trans}}</th>
+            <td>{{ basketContent.product.price }}</td>
+        </tr>
+        </tbody>
+    </table>
+
+    <a href="{{ path('app_accueil') }}">{{ 'basketContent.back' |trans }}</a>
+
+
+    {{ include('BasketContent/_delete_form.html.twig') }}
+
+{% endblock %}

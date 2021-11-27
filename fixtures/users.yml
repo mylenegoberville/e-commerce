@@ -1,0 +1,22 @@
+#passwor: azer
+App\Entity\User:
+  user_1:
+    firstName: <firstName()>
+    lastName: <lastName()>
+    email: 'admin\@admin.com'
+    roles: ['ROLE_ADMIN']
+    password: '\$2y\$13\$ywpGbUAHMeY8nLCp2eO4juZi/FoebeKl.uO5X9uwdtRZ/1tjiKkj6'
+  
+  user_2:
+    firstName: <firstName()>
+    lastName: <lastName()>
+    email: 'super_admin\@super_admin.com'
+    roles: ['ROLE_SUPER_ADMIN']
+    password: '\$2y\$13\$ywpGbUAHMeY8nLCp2eO4juZi/FoebeKl.uO5X9uwdtRZ/1tjiKkj6'
+  
+  user_3:
+    firstName: <firstName()>
+    lastName: <lastName()>
+    email: 'user\@user.com'
+    roles: ['ROLE_USER']
+    password: '\$2y\$13\$ywpGbUAHMeY8nLCp2eO4juZi/FoebeKl.uO5X9uwdtRZ/1tjiKkj6'

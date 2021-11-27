@@ -1,0 +1,47 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}{{ 'home' |trans}}{% endblock %}
+
+{% block body %}
+    <h1>{{ 'home' |trans}}</h1>
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th>{{ 'product.id' |trans}}</th>
+                <th>{{ 'product.name' |trans}}</th>
+                <th>{{ 'product.description' |trans}}</th>
+                <th>{{ 'product.price' |trans}}</th>
+                <th>{{ 'product.stock' |trans}}</th>
+                <th>{{ 'product.picture' |trans}}</th>
+                <th>{{ 'product.actions' |trans}}</th>
+            </tr>
+        </thead>
+        <tbody>
+        {% for product in products %}
+            <tr>
+                <td>{{ product.id }}</td>
+                <td>{{ product.name }}</td>
+                <td>{{ product.description }}</td>
+                <td>{{ product.price }}</td>
+                <td>{{ product.stock }}</td>
+                <td>{{ product.picture }}</td>
+                <td>
+                    {% if product.picture is not null %}
+                        <img src="{{'/uploads/' ~ product.picture}}" style="width: 100px">
+                    {% endif %}
+                </td>
+                <td>
+                    <a href="{{ path('product_index', {'id': product.id}) }}">show</a>
+                </td>
+            </tr>
+        {% else %}
+            <tr>
+                <td colspan="7">{{  'product.empty'|trans }}</td>
+            </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+
+    <a href="{{ path('product_new') }}">{{ 'product.new'|trans }}</a>
+{% endblock %}

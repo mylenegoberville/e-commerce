@@ -1,0 +1,66 @@
+welcome: Welcome !
+
+home: Home
+
+user:
+  index_title: User index
+  name: User
+  id: Id
+  email: Email
+  roles: Roles
+  password: Password
+  action: Actions
+  edit_info: Modifier mes informations
+  account: Mon Compte
+  new: Créer un nouvel utilisateur
+
+product:
+  id: Id
+  name: Product
+  description: Description
+  price: Price
+  stock: Stock
+  picture: Picture
+  actions: Actions
+  empty: There is no product
+  added: Product added
+  new : Add a new product
+  back: Return
+  edit: Edit
+  basket: Basket
+  edit_product: Edit Product
+  fail_add_to_basket: "Error : Failed to add to basket"
+  success_add_to_basket: Product added to basket
+  add_to_basket: Add to basket
+
+
+login: 
+  login: Login
+
+
+register:
+  register: Register
+
+button:
+  edit: Modifier
+  show: Afficher
+  new: Créer
+  back_to_list: Retourner à la liste
+  delete: Delete
+  register: Register
+
+Name: Name
+basket: Basket
+Email: Email
+Last name: Last Name
+First name: First Name
+Password: Password
+Roles: Roles
+Agree terms: Agree terms
+Price: Price
+Description: Description
+Stock: Stock
+Image (PNG, JPG): 	Picture (PNG, JPG)
+title_newproduct: New Product
+Save: Save
+

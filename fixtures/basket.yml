@@ -1,0 +1,3 @@
+App\Entity\Basket:
+  basket_{1..3}:
+    user: '@user_<current()>'

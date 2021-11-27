@@ -1,0 +1,65 @@
+welcome: ようこそ !
+
+home: ホームホーム
+
+user:
+  index_title: すべてのユーザー
+  name: ユーザー
+  id: ユーザーID
+  email: Eメール
+  roles: 役割
+  password: パスワード
+  action: 行動
+  edit_info: 情報を変更する
+  account: マイアカウント
+  new: 新しいユーザーを作成する
+
+product:
+  id: Id
+  name: 製品
+  description: 説明
+  price: 価格
+  stock: 株式
+  picture: 画像
+  actions: 行動
+  empty: 商品はありません
+  added: 追加された製品
+  new: 新製品を追加する
+  back: 戻る
+  edit: 編集
+  basket: バスケット
+  edit_product: 製品の編集
+  fail_add_to_basket: "エラー：商品がカートに追加されていません"
+  success_add_to_basket: ショッピングカートに商品が追加されました
+  add_to_basket: カートに追加
+
+login: 
+  login: ログイン
+  please_signin: サインインしてください
+
+register:
+  register: 登録
+
+button:
+  edit: 編集
+  show: 公演
+  new: 新着
+  back_to_list: リストに戻る
+  delete: 削除
+  register: 登録
+
+Name: 名前
+basket: バスケット
+Email: Eメール
+Last name: 苗字
+First name: ファーストネーム
+Password: パスワード
+Roles: 役割
+Agree terms: 条件に同意する
+Price: 価格
+Description: 説明
+Stock: 株式
+Image (PNG, JPG): 画像（PNG、JPG）
+title_newproduct: 新製品
+Save: 記録
+

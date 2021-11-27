@@ -1,0 +1,7 @@
+App\Entity\Product:
+  product_{1..10}:
+    name: 'product_<current()>'
+    description: <sentence(4)>
+    price: <numberBetween(1, 200)>
+    stock: <numberBetween(1, 200)>
+    picture: <sentence(4)>

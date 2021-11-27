@@ -1,0 +1,64 @@
+welcome: Bienvenue !
+
+home: Accueil
+
+user:
+  index_title: Tous les utilisateurs
+  name: Utilisateur
+  id: Identifiant
+  email: Email
+  roles: Roles
+  password: Mot de passe
+  action: Actions
+  edit_info: Modifier mes informations
+  account: Mon Compte
+  new: Créer un nouvel utilisateur
+
+product:
+  id: Id
+  name: Produit
+  description: Description
+  price: Prix
+  stock: Stock
+  picture: Image
+  actions: Actions
+  empty: Il n'y a pas de produit
+  added: Produit ajouté
+  new : Ajouter un nouveau produit
+  back: Retour
+  edit: Modifier
+  basket: Panier
+  edit_product: Modifier le produit
+  fail_add_to_basket: "Erreur : Produit non ajouté au panier"
+  success_add_to_basket: Produit ajouté au panier
+  add_to_basket: Ajouter au panier
+
+login: 
+  login: S'identitfier
+  please_signin: Veuillez vous identifier
+
+register:
+  register: S'inscrire
+
+button:
+  edit: Modifier
+  show: Afficher
+  new: Créer
+  back_to_list: Retourner à la liste
+  delete: Supprimer
+  register: s'inscrire
+
+Name: Nom
+basket: Panier
+Email: Email
+Last name: Nom de Famille
+First name: Prénom
+Password: Mot de Passe
+Roles: Roles
+Agree terms: Accepter les termes
+Price: Prix
+Description: Description
+Stock: Stock
+Image (PNG, JPG): 	Image (PNG, JPG)
+title_newproduct: Nouveau Produit
+Save: Enregistrer

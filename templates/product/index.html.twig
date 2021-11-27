@@ -1,0 +1,42 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}{{ 'product.name' |trans}}{% endblock %}
+
+{% block body %}
+    <h1>{{ 'product.name' |trans}}</h1>
+
+    <table class="table">
+        <tbody>
+            <tr>
+                <th>{{ 'product.id' |trans}}</th>
+                <td>{{ product.id }}</td>
+            </tr>
+            <tr>
+                <th>{{ 'product.name' |trans}}</th>
+                <td>{{ product.name }}</td>
+            </tr>
+            <tr>
+                <th>{{ 'product.description' |trans}}</th>
+                <td>{{ product.description }}</td>
+            </tr>
+            <tr>
+                <th>{{ 'product.price' |trans}}</th>
+                <td>{{ product.price }}</td>
+            </tr>
+            <tr>
+                <th>{{ 'product.stock' |trans}}</th>
+                <td>{{ product.stock }}</td>
+            </tr>
+            <tr>
+                <th>{{ 'product.picture' |trans}}</th>
+                <td>{{ product.picture }}</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <a href="{{ path('app_accueil') }}">{{ 'product.back' |trans }}</a>
+
+    <a href="{{ path('product_edit', {'id': product.id}) }}">{{ 'product.edit' |trans }}</a>
+    {{ include('/product/_addToBasket.html.twig', {'button_label': 'Ajouter au panier'}) }}
+
+{% endblock %}

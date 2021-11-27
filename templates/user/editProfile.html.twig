@@ -1,0 +1,15 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Edit User{% endblock %}
+
+{% block body %}
+    <h1>{{ 'user.account'|trans }}</h1>
+
+    <h2>{{ 'user.edit_info'|trans }}</h2>
+
+    {{ include('user/_editform.html.twig', {'button_label': 'Update'}) }}
+
+    <h2>{{ 'basket'|trans }}</h2>
+        afficher le panier
+
+{% endblock %}

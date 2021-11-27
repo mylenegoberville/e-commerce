@@ -1,0 +1,5 @@
+App\Entity\BasketContent:
+  basketContent_{1..100}:
+    product: '@product_<numberBetween(1,10)>'
+    basket: '@basket_<numberBetween(1,3)>'
+    quantity: 1
